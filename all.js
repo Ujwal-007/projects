@@ -38,6 +38,3 @@ sr.reveal ('.review-content,contact',{delay:300});
 sr.reveal ('.middle-text',{delay:300});
 
 sr.reveal ('.shop-content,row',{delay:300});
-
-
-
