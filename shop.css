@@ -80,19 +80,9 @@ header{
     margin-left: 5px;
     transition: all .75s ease;
 }
-#menu-icon{
-    font-size: 32px;
-    color: var(--bg-color);
-    z-index: 10001;
-    cursor: pointer;
-    display: none;
-}
-.nav-icons i:hover{
-    transform: scale(1.1);
-    color: var(--text-color);
-}
 section{ 
-    padding: 70px 14% 60px;
+    padding: 70px 15% 60px;
+    gap: 25px;
 }
 .middle-text{
     text-align:center;
@@ -121,7 +111,7 @@ section{
     border: 3rem;
 }
 .row img{
-    width: 100%;
+    width: 58%;
     height: auto;
     transition: transform .75s ease;
     cursor: pointer;
@@ -178,4 +168,36 @@ section{
 }
 .row img:hover{
     transform: scale(1.1);
+}
+@media(max-width: 1545px){
+    header{
+        padding: 22px 4%;
+        transition: .2s;
+    }
+    header.sticky{
+        padding: 22px 4%;
+        transition: .2s;
+    }
+    section{
+        padding: 50px 4% 40px;
+        transition: .2s;
+    }
+    .container{
+        padding: 30px 4% 50px;
+    }
+}
+@media (max-width: 1180px){
+    :root{
+        --big-font: 4rem;
+        --h2-font: 2.2rem;
+        --p-font: 15px;
+    }
+}
+/* cart items */
+.cart-page {
+    margin: 80px auto;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
 }

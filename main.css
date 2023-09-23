@@ -442,7 +442,6 @@ header.sticky{
         padding: 30px 4% 50px;
     }
 }
-
 @media (max-width: 1180px){
     :root{
         --big-font: 4rem;
