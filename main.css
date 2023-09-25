@@ -104,19 +104,17 @@ section{
     gap: 2rem;
 }
 .home-img{
-    margin-top: -40px;
-    z-index: -1;
+    margin-top: -60px;
+    z-index: -10;
 }
 .home-img img{
-    width: 100%;
+    width: 0%;
     height: auto;
-   
-    }
+}git p
 .home-text h1{
     font-size: var(--big-font);
     font-weight: 700;
     line-height: 1.3;
-    margin-bottom: 3rem;
 }
 span{
     color: var(--main-color);
